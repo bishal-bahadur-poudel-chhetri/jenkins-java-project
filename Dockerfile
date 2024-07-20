@@ -1,5 +1,6 @@
 FROM tomcat:latest
 
-COPY ./netflix.war   /usr/local/tomcat/webapps
+COPY ./target/NETFLIX-1.2.2.war   /usr/local/tomcat/webapps
+
 
 EXPOSE 80
